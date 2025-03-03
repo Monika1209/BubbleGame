@@ -10,7 +10,7 @@ function increasrScore(){
 function makeBubble() {
     let clutter = "";
 
-    for (let i = 1; i <= 182; i++) {
+    for (let i = 1; i <= 72; i++) {
         let num = Math.floor(Math.random() * 10);
         clutter += `<div class="bubble">${num}</div>  `
     }
